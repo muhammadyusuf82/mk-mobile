@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background: url(imgs/fon.jpg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.bot{
+    border-bottom: 4px solid yellow;
+}
+.bott{
+    border-bottom: 2px solid blue;
+}
+.rgb{
+    background-color: rgba(0, 0, 0, 0.395);
+    clip-path: ellipse(100% 67% at 77% 36%);
+}
+.rgba{
+    background-color: rgba(0, 0, 0, 0.395);
+    clip-path: ellipse(100% 67% at 17% 64%);
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.395);
+}
+.transform {
+    transition: all .2s;
+}
+
+.transform:hover {
+    transform: scale(.8);
+}
+/* .final_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+}
+
+.sub_btn {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.I button {
+    border: 1px solid #fff;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: scroll;
+    transition: all .3s;
+}
+
+.I button:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+.scorp_btn {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.friend button {
+    border: 1px solid #fff;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: scroll;
+    transition: all .3s;
+}
+
+.friend button:hover {
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+.final_div h1 {
+    padding-left: 20px;
+} */
+.link{
+    text-decoration: none;
+}
